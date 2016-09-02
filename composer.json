@@ -1,0 +1,33 @@
+{
+    "name": "jrdev/pclog",
+    "description": "Logging made easy.",
+    "type": "library",
+    "keywords": ["log", "logging", "php-console"],
+    "license": "MIT",
+    "time": "2016-09-02",
+    "homepage": "https://github.com/jrobinsonc/pclog",
+    "authors": [
+        {
+            "name": "Jose Robinson",
+            "email": "hi@joserobinson.com",
+            "homepage": "http://www.joserobinson.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues" : "https://github.com/jrobinsonc/pclog/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "jrdev\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+           "dev-master": "master"
+        }
+    },
+    "require": {
+        "php-console/php-console": "^3.1"
+    }
+}
