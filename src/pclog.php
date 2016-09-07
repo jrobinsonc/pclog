@@ -8,10 +8,8 @@ class PCLog
     private $pc_instance;
     private $password;
 
-    public function __construct($password = null)
-    {
-        $this->init($password);
-    }
+    public function __construct()
+    {}
 
     public function init($password = null)
     {
