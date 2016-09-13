@@ -38,6 +38,7 @@ if (isset($_SESSION['user_logged'])) {
 Use:
 
 ```php
+<?php
 $pclog->debug('my new log');
 ```
 
