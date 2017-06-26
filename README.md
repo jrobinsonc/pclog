@@ -44,4 +44,5 @@ $pclog->debug('my new log');
 
 ## License
 
-Licensed under the MIT License - see the `LICENSE` file for details
+Released under the [MIT license](https://raw.githubusercontent.com/jrobinsonc/pclog/master/LICENSE).
+
