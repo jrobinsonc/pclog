@@ -21,24 +21,13 @@ $ composer require jrdev/pclog
 
 ## Usage
 
-First, setup the library:
-
 ```php
 <?php
 require 'vendor/autoload.php';
 
 $pclog = new jrdev\PCLog;
+$pclog->init();
 
-// Define who can see the logs:
-if (isset($_SESSION['user_logged'])) {
-    $pclog->init();
-}
-```
-
-Use:
-
-```php
-<?php
 $pclog->debug('my new log');
 ```
 
